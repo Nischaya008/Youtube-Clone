@@ -1,0 +1,559 @@
+.menu-button{
+    display:flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-left:10px;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.menu-button:hover{
+    background-color: darkgray;
+}
+.menu-button:active{
+    background-color: gray;
+}
+.voice-button{
+    margin-top:5px;
+    margin-left:10px;
+    display:flex;
+    height: 40px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    border-style:solid;
+    border-color:white;
+    cursor:pointer;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+.voice-button:hover{
+    background-color: darkgray;
+}
+.voice-button:active{
+    background-color: gray;
+}
+.search-button{
+    margin-top:5px;
+    margin-bottom: 10px;
+    display:flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color:gray;
+    border-style: solid;
+    border-left: 0px;
+    width: 90px;
+    height: 45.5px;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.search-button:hover{
+    background-color: darkgray;
+}
+.search-button:active{
+    background-color: gray;
+}
+.create-button{
+    margin-right:25px;
+    display:flex;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-style:solid;
+    border-color:white;
+    cursor:pointer;
+    transition: 0.5s;
+    
+}
+.create-button:hover{
+    background-color: darkgray;
+}
+.create-button:active{
+    background-color: gray;
+}
+.bell-button{
+    margin-right:25px;
+    display:flex;
+    height: 40px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    border-style:solid;
+    background-color: white;
+    border-color:white;
+    cursor:pointer;
+    transition: 0.5s;
+    
+}
+.bell-button:hover{
+    background-color: darkgray;
+}
+.bell-button:active{
+    background-color: gray;
+}
+.profile-button{
+    margin-right:10px;
+    display:flex;
+    height: 40px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    border-style:solid;
+    background-color: white;
+    border-color:white;
+    cursor:pointer;
+    transition: 0.5s;
+    
+}
+.profile-button:hover{
+    transform: scale(1.2);
+}
+.home-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    margin-left:10px;
+    padding-right:104px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.home-button:hover{
+    background-color: darkgray;
+}
+.home-button:active{
+    background-color: gray;
+}
+.shorts-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    margin-left:10px;
+    padding-right:100px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.shorts-button:hover{
+    background-color: darkgray;
+}
+.shorts-button:active{
+    background-color: gray;
+}
+.sub-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    margin-left:10px;
+    padding-right:50px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.sub-button:hover{
+    background-color: darkgray;
+}
+.sub-button:active{
+    background-color: gray;
+}
+.you-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:128px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.you-button:hover{
+    background-color: darkgray;
+}
+.you-button:active{
+    background-color: gray;
+}
+.your-channel-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:50px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.your-channel-button:hover{
+    background-color: darkgray;
+}
+.your-channel-button:active{
+    background-color: gray;
+}
+.history-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:97px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.history-button:hover{
+    background-color: darkgray;
+}
+.history-button:active{
+    background-color: gray;
+}
+.playlist-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:89px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.playlist-button:hover{
+    background-color: darkgray;
+}
+.playlist-button:active{
+    background-color: gray;
+}
+.your-videos-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:63px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.your-videos-button:hover{
+    background-color: darkgray;
+}
+.your-videos-button:active{
+    background-color: gray;
+}
+.watch-later-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:63px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.watch-later-button:hover{
+    background-color: darkgray;
+}
+.watch-later-button:active{
+    background-color: gray;
+}
+.liked-videos-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:58px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.liked-videos-button:hover{
+    background-color: darkgray;
+}
+.liked-videos-button:active{
+    background-color: gray;
+}
+.sub1-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:72px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.sub1-button:hover{
+    background-color: darkgray;
+}
+.sub1-button:active{
+    background-color: gray;
+}
+.sub2-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:89px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.sub2-button:hover{
+    background-color: darkgray;
+}
+.sub2-button:active{
+    background-color: gray;
+}
+.sub3-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:29px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.sub3-button:hover{
+    background-color: darkgray;
+}
+.sub3-button:active{
+    background-color: gray;
+}
+.sub4-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:29px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.sub4-button:hover{
+    background-color: darkgray;
+}
+.sub4-button:active{
+    background-color: gray;
+}
+.sub5-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:73px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.sub5-button:hover{
+    background-color: darkgray;
+}
+.sub5-button:active{
+    background-color: gray;
+}
+.sub6-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:51px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.sub6-button:hover{
+    background-color: darkgray;
+}
+.sub6-button:active{
+    background-color: gray;
+}
+.settings-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:89px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.settings-button:hover{
+    background-color: darkgray;
+}
+.settings-button:active{
+    background-color: gray;
+}
+.help-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:114px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.help-button:hover{
+    background-color: darkgray;
+}
+.help-button:active{
+    background-color: gray;
+}
+.feedback-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:76px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.feedback-button:hover{
+    background-color: darkgray;
+}
+.feedback-button:active{
+    background-color: gray;
+}
+.git-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:55px;
+    margin-left:10px;
+    padding-right:50px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.git-button:hover{
+    background-color: darkgray;
+}
+.git-button:active{
+    background-color: gray;
+}
+.x-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:55px;
+    margin-left:10px;
+    padding-right:53px;
+    height: 45px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.x-button:hover{
+    background-color: darkgray;
+}
+.x-button:active{
+    background-color: gray;
+}

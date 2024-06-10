@@ -1,0 +1,115 @@
+.sidebar{
+    position: fixed; /* Keep the sidebar fixed */
+    top: 60px; /* Adjust the top position as needed */
+    display: grid;
+    grid-template-rows: repeat(31, 30px);
+    margin-top: -1px;
+    width: 250px;
+    row-gap: 15px;
+    height: calc(100vh - 60px); /* Subtract the top margin from the full viewport height */
+    overflow-y: auto;
+    z-index: 900; /* Lower z-index than the header to prevent overlap */
+    background-color: white;
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.home-logo{
+    height: 24px;
+    width: 24px;
+}
+.shorts-logo{
+    height: 24px;
+    width: 24px;
+}
+.sub-logo{
+    height: 24px;
+    width: 24px;
+}
+.line{
+    margin-top: 25px;
+}
+.your-channel-logo{
+    height: 24px;
+    width: 24px;
+}
+.history-logo{
+    height: 24px;
+    width: 24px;
+}
+.playlist-logo{
+    height: 24px;
+    width: 24px;
+}
+.your-videos-logo{
+    height: 24px;
+    width: 24px;
+}
+.watch-later-logo{
+    height: 24px;
+    width: 24px;
+}
+.liked-videos-logo{
+    height: 24px;
+    width: 24px;
+}
+/* Remove underline for all link states */
+.no-underline:link, 
+.no-underline:visited, 
+.no-underline:hover, 
+.no-underline:active {
+  text-decoration: none;
+  color: inherit; /* Ensures that the text color doesn't change */
+}
+.sub1-logo{
+    height: 24px;
+    width: 24px;
+    border-radius:15px;
+}
+.sub2-logo{
+    height: 24px;
+    width: 24px;
+    border-radius:15px;
+}
+.sub3-logo{
+    height: 24px;
+    width: 24px;
+    border-radius:15px;
+}
+.sub4-logo{
+    height: 24px;
+    width: 24px;
+    border-radius:15px;
+}
+.sub5-logo{
+    height: 24px;
+    width: 24px;
+    border-radius:15px;
+}
+.sub6-logo{
+    height: 24px;
+    width: 24px;
+    border-radius:15px;
+}
+.settings-logo{
+    height: 24px;
+    width: 24px;
+}
+.help-logo{
+    height: 24px;
+    width: 24px;
+}
+.feedback-logo{
+    height: 24px;
+    width: 24px;
+}
+.sub-text{
+    display:inline-block;
+}
+.git-logo{
+    height: 24px;
+    width: 24px;
+}
+.x-logo{
+    height: 24px;
+    width: 24px;
+}
